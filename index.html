@@ -1172,10 +1172,10 @@ function validatePersonalDetails() {
     const dept = document.getElementById('department').value.trim();
     const dob = document.getElementById('dob').value.trim();
 
-    // if (!name || !registerNo || !gender || !graduate || !hsc || !myambition || !dept || !dob) {
-    //     alert('Please fill out all personal details.');
-    //     return false;
-    // }
+    if (!name || !registerNo || !gender || !graduate || !hsc || !myambition || !dept || !dob) {
+         alert('Please fill out all personal details.');
+         return false;
+     }
     
 
 // Define the postData function
